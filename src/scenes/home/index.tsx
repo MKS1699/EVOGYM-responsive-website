@@ -2,7 +2,7 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
 import ActionButton from "@/shared/ActionButton";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponsorRedbull from "@/assets/SponsorRedbull.png";
+import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import HomePageText from "@/assets/HomePageText.png";
@@ -82,7 +82,7 @@ const Home = ({ setSelectedPage }: Props) => {
           <div className="mx-auto w-5/6">
             <div className="flex w-3/5 items-center justify-between gap-8">
               <img src={SponsorFortune} alt="Fortune-sponsor" />
-              <img src={SponsorRedbull} alt="redbull-sponsor" />
+              <img src={SponsorRedBull} alt="redbull-sponsor" />
               <img src={SponsorForbes} alt="forbes-sponsor" />
             </div>
           </div>
